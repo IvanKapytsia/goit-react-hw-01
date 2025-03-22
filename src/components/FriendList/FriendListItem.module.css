@@ -1,0 +1,30 @@
+.friend_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 120px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.friend_name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.friend_status {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.friend_status.online {
+  color: green;
+}
+
+.friend_status.offline {
+  color: red;
+}
